@@ -1,0 +1,60 @@
+/* Background gradient */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eaf6ff, #ffffff);
+}
+
+/* Section Styling */
+.about-section {
+  padding: 60px 0;
+}
+
+.about-section h2 {
+  color: #004085; /* Dark hospital blue */
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.highlight-list li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #004085;
+}
+
+.highlight-list li::before {
+  content: "✔ ";
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Info Box */
+.info-box {
+  background: #f0f8ff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  background: #004085;
+  color: white;
+}
+.about-img {
+  width: 100%;        /* Responsive full width */
+  max-width: 450px;   /* Adjust max width (you can change it as per your design) */
+  height: auto;       /* Keeps proper ratio */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+  margin: 10px auto;   /* Centering and spacing */
+  display: block;      /* Ensures proper alignment */
+}

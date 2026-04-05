@@ -1,0 +1,21 @@
+/* Styling for appointment card */
+.appointment-card {
+  border-radius: 12px;
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+
+.appointment-card label {
+  font-weight: 600;
+  color: #28a745;
+}
+
+.appointment-card input {
+  border-radius: 10px;
+}
+
+.appointment-card button {
+  border-radius: 10px;
+  font-weight: bold;
+}

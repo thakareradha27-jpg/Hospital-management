@@ -1,0 +1,77 @@
+.bg-custom{
+	background-color: #0696ba;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.nav-link, .navbar-brand{
+			color:white
+}
+
+.navbar-brand img{
+	width:10px;
+}
+
+#hero {
+height: 80vh;
+color:white;
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 49% 90%, 0 100%, 0% 60%, 0 0);
+}
+img{
+	height: 400px;
+	width: 700px;
+	border-radius: 20px;
+
+}
+
+  h2 {
+ font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  color: white;  
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+	text-align:justify;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+#rating .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#rating .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+#rating .card {
+  background-color: #fff; 
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  transition: none; 
+}
+
+#rating .card-footer {
+  background-color: #0696ba; 
+  color: white;
+  font-family: "Caveat", serif;
+  text-align: center;
+}
+
+#rating .card-footer i {
+  color: orange; 
+}
+
+#rating img {
+  max-width: 120px;
+  max-height: 60px;
+  object-fit: contain;
+}

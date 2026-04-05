@@ -1,0 +1,51 @@
+/* register.css - styles for Register form */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register-card {
+    border-radius: 10px;
+}
+
+.register-card .card-header {
+    background-color: #0696ba;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.register-card .card-body {
+    padding: 20px;
+}
+
+.register-card .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.register-card .btn-success {
+    background-color:#0696ba ;
+    border-color:#0696ba ;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.register-card .btn-success:hover {
+    background-color:#0696ba;
+    border-color: #0696ba;
+}
+
+.register-card textarea {
+    resize: none;
+}
